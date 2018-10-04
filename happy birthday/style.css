@@ -1,0 +1,76 @@
+#outside {
+    z-index: 1;
+    position: absolute;
+    background-color:#9fd9ef;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: 1s;
+    transform-origin: 0;
+  }
+#outsidemsg{
+      font-family: 'Courier New';
+      font-size: 40px;
+      color: #002933;
+      text-align: center;
+  }
+#outsidepic{
+    width: 450px;
+    height: 350px;
+}
+#outsidebtn{
+    background-color: #002933;
+    padding: 14px 40px;
+    font-size: 20px;
+    color: whitesmoke;
+    border-radius: 50%;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.1s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 250px;
+    display: inline-block;
+    cursor: pointer;
+}
+#outsidebtn:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+.open-card {
+    transform: rotateY(90deg);
+  }
+  #inside {
+    z-index: 0;
+    position: absolute;
+    background-color:#ADDEEF;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  #insidemsg{
+    font-family: 'Courier New';
+    font-size: 40px;
+    color: #002933;
+    text-align: center;
+}
+#insidepic{
+    width: 450px;
+    height: 350px;
+}
+#insidebtn{
+    background-color: #002933;
+    padding: 14px 40px;
+    font-size: 20px;
+    color: whitesmoke;
+    border-radius: 50%;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.1s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 250px;
+    display: inline-block;
+    cursor: pointer;
+}
+#insidebtn:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+ 
